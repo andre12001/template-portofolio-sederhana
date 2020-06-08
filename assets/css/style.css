@@ -1,0 +1,91 @@
+/*------------------------------------------------------
+Nama Template   : Template Sederhana - PortoFolio
+author          : Andre Tri Ramadana
+Version         : 1.0                                            
+Copyright       : (c) 2020 PortoFolio. All rights reserved.  
+
+-------------------------------------------------------*/ 
+
+/*------------------------------------------------------
+                    STRUKTUR CSS
+--------------------------------------------------------
+
+1. Default CSS
+2. Container CSS ( untuk semua class="container")
+3. Informasi Diri atau jumbotron  
+4. Text Center About ( agar judul ke posisi center )
+5. About Text Left (agar menyesuaikan dengan gambar dan pastinya textnya disebelah gambar)
+6. About Text Right ( agar text menyesuaikan Dengan Gambar dan pastinya text disebelah gambar)
+7. Text Contact Us ( agar judul ke posisi center/tengah)
+8. footer ( agar menyesuaikan posisi dengan padding)
+
+-------------------------------------------------------*/   
+
+
+
+/*Default CSS*/
+body, h1,h2,h3,h4,h5,p{
+    background-color: #212529;
+    font-family: 'Piedra', cursive;
+    font-size: 100%;
+    color: white;
+}
+/*End Default CSS*/
+
+
+/*Container*/
+.container{
+    padding: 1px;
+    padding-top: 0px;
+}
+/*End Container*/
+
+
+/*Informasi Diri atau jumbotron*/
+.jumbotron, .h1{
+    background-color: #212529;
+    color: white;
+}
+/*End Informasi Diri atau jumbotron*/
+
+
+/*Text Center About*/
+.text-aboutme{
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+}
+/*Text Center About*/
+
+
+/*About Text Left*/
+.text-left{
+    width: 100%;
+    text-align: justify;
+}
+/*End About Text Left*/
+
+
+/*About Text Right*/
+.text-right{
+    width: 100%;
+    padding-top: 3em;
+    text-align: justify;
+}
+/*End About Text Right*/
+
+
+/*Text Contact Us*/
+.text-Contact{
+    text-align: center;
+    padding-top: 8em;
+    font-size: large;
+}    
+/*End Text Contact Us*/
+
+
+/*Footer*/
+.footer{
+    padding-top: 5em;
+}
+/*End Footer*/
