@@ -63,13 +63,17 @@ body, h1,h2,h3,h4,h5,p{
     width: 100%;
     text-align: justify;
 }
+
+.float-right{
+    margin: 0 23px 3px 0;
+}
 /*End About Text Left*/
 
 
 /*About Text Right*/
 .text-right{
     width: 100%;
-    padding-top: 3em;
+    padding-top: 9em;
     text-align: justify;
 }
 /*End About Text Right*/
